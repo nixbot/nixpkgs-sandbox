@@ -1,3 +1,4 @@
+test
 { stdenv, fetchFromGitHub, pkgconfig, autoconf, automake,
   python, boost, fuse, libtorrentRasterbar, curl }:
 

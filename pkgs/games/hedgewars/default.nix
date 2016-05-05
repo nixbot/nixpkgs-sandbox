@@ -1,3 +1,5 @@
+change
+
 { SDL_image, SDL_ttf, SDL_net, fpc, qt4, ghcWithPackages, ffmpeg, freeglut
 , stdenv, makeWrapper, fetchurl, cmake, pkgconfig, lua5_1, SDL, SDL_mixer
 , zlib, libpng, mesa, physfs

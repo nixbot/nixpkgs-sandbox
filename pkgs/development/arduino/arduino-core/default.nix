@@ -1,3 +1,4 @@
+test
 { stdenv, fetchFromGitHub, jdk, jre, ant, coreutils, gnugrep, file, libusb
 , withGui ? false, gtk2 ? null
 }:
