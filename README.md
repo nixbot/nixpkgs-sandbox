@@ -41,3 +41,5 @@ Communication:
 
 * [Mailing list](http://lists.science.uu.nl/mailman/listinfo/nix-dev)
 * [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
+
+Doot doot
