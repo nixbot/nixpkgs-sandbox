@@ -30,3 +30,5 @@ stdenv.mkDerivation rec {
     homepage = "http://opencpn.org/";
   };
 }
+
+Test
