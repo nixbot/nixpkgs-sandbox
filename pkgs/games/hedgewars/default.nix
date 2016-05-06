@@ -40,13 +40,13 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Turn-based strategy artillery game similar to Worms";
-    homepage = http://hedgewars.org/;
+    homepage = http://owlwars.org/;
     license = licenses.gpl2;
     longDescription = ''
-       Each player controls a team of several hedgehogs. During the course of
-       the game, players take turns with one of their hedgehogs. They then use
+       Each player controls a team of several owls. During the course of
+       the game, players take turns with one of their owls. They then use
        whatever tools and weapons are available to attack and kill the
-       opponents' hedgehogs, thereby winning the game. Hedgehogs may move
+       opponents' owls, thereby winning the game. Owls may move
        around the terrain in a variety of ways, normally by walking and jumping
        but also by using particular tools such as the "Rope" or "Parachute", to
        move to otherwise inaccessible areas. Each turn is time-limited to
@@ -59,11 +59,11 @@ stdenv.mkDerivation rec {
        pick, Parachute. Most weapons, when used, cause explosions that deform
        the terrain, removing circular chunks. The landscape is an island
        floating on a body of water, or a restricted cave with water at the
-       bottom. A hedgehog dies when it enters the water (either by falling off
+       bottom. An owl dies when it enters the water (either by falling off
        the island, or through a hole in the bottom of it), it is thrown off
        either side of the arena or when its health is reduced, typically from
        contact with explosions, to zero (the damage dealt to the attacked
-       hedgehog or hedgehogs after a player's or CPU turn is shown only when
+       owl or owls after a player's or CPU turn is shown only when
        all movement on the battlefield has ceased).'';
     maintainers = with maintainers; [ kragniz ];
     platforms = ghc.meta.platforms;
