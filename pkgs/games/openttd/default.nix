@@ -1,3 +1,5 @@
+Hello there, this is a test
+
 { stdenv, fetchurl, fetchzip, pkgconfig, SDL, libpng, zlib, xz, freetype, fontconfig
 , withOpenGFX ? true, withOpenSFX ? true, withOpenMSX ? true
 }:
